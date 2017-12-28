@@ -1,5 +1,7 @@
 # Relax
 
+[![Travis Build Status](https://travis-ci.org/felixexter/relax.svg?branch=master)](https://travis-ci.org/felixexter/relax)
+
 Experiments with React novelties
 
 ![](https://media.giphy.com/media/olBHXQ86cpl6/giphy.gif)
