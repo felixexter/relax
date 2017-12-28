@@ -1,0 +1,2287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Stepper 2 steps 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  height: 64px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c1:not(:first-child)::before,
+.c1:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c1::before {
+  right: calc(50% + 10px);
+}
+
+.c1::after {
+  left: calc(50% + 10px);
+}
+
+.c1:not(:first-child)::before {
+  background-color: #4731d2;
+}
+
+.c4 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c4:not(:first-child)::before,
+.c4:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c4::before {
+  right: calc(50% + 10px);
+}
+
+.c4::after {
+  left: calc(50% + 10px);
+}
+
+.c4:not(:first-child)::before {
+  background-color: #dbdbdb;
+}
+
+.c4:not(:last-child)::after {
+  background-color: #dbdbdb;
+}
+
+.c2 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c2::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c2::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c2::before {
+  background-color: #4731d2;
+}
+
+.c2::after {
+  border-color: #4731d2;
+}
+
+.c2:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c2:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c2.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c5 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #dbdbdb;
+}
+
+.c5::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c5::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c5:not(:disabled):hover {
+  color: #4731d2;
+}
+
+.c5:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c5::before {
+  background-color: #4731d2;
+}
+
+.c5::after {
+  border-color: #dbdbdb;
+}
+
+.c5:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c5:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c5.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c5.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c3 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Design
+      </span>
+    </button>
+  </div>
+  <div
+    className="c4"
+  >
+    <button
+      className="c5"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Build
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Stepper 3 steps 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  height: 64px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c1:not(:first-child)::before,
+.c1:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c1::before {
+  right: calc(50% + 10px);
+}
+
+.c1::after {
+  left: calc(50% + 10px);
+}
+
+.c1:not(:first-child)::before {
+  background-color: #4731d2;
+}
+
+.c5 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c5:not(:first-child)::before,
+.c5:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c5::before {
+  right: calc(50% + 10px);
+}
+
+.c5::after {
+  left: calc(50% + 10px);
+}
+
+.c5:not(:first-child)::before {
+  background-color: #dbdbdb;
+}
+
+.c5:not(:last-child)::after {
+  background-color: #dbdbdb;
+}
+
+.c4 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c4::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c4::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c4::before {
+  background-color: #4731d2;
+}
+
+.c4::after {
+  border-color: #4731d2;
+}
+
+.c4:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c4:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c4.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c6 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #dbdbdb;
+}
+
+.c6::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c6::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c6:not(:disabled):hover {
+  color: #4731d2;
+}
+
+.c6:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c6::before {
+  background-color: #4731d2;
+}
+
+.c6::after {
+  border-color: #dbdbdb;
+}
+
+.c6:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c6:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c6.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c6.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c2 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c2::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c2::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c2:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c2::before {
+  background-color: #4731d2;
+}
+
+.c2::after {
+  border-color: #4731d2;
+}
+
+.c2:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c2:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c2.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c2.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c3 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Design
+      </span>
+    </button>
+  </div>
+  <div
+    className="c1"
+  >
+    <button
+      className="c4"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Build
+      </span>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <button
+      className="c6"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Launch
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Stepper 4 steps 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  height: 64px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c1:not(:first-child)::before,
+.c1:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c1::before {
+  right: calc(50% + 10px);
+}
+
+.c1::after {
+  left: calc(50% + 10px);
+}
+
+.c1:not(:first-child)::before {
+  background-color: #4731d2;
+}
+
+.c5 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c5:not(:first-child)::before,
+.c5:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c5::before {
+  right: calc(50% + 10px);
+}
+
+.c5::after {
+  left: calc(50% + 10px);
+}
+
+.c5:not(:first-child)::before {
+  background-color: #dbdbdb;
+}
+
+.c5:not(:last-child)::after {
+  background-color: #dbdbdb;
+}
+
+.c4 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c4::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c4::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c4::before {
+  background-color: #4731d2;
+}
+
+.c4::after {
+  border-color: #4731d2;
+}
+
+.c4:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c4:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c4.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c6 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #dbdbdb;
+}
+
+.c6::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c6::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c6:not(:disabled):hover {
+  color: #4731d2;
+}
+
+.c6:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c6::before {
+  background-color: #4731d2;
+}
+
+.c6::after {
+  border-color: #dbdbdb;
+}
+
+.c6:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c6:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c6.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c6.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c2 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c2::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c2::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c2:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c2::before {
+  background-color: #4731d2;
+}
+
+.c2::after {
+  border-color: #4731d2;
+}
+
+.c2:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c2:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c2.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c2.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c3 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Design
+      </span>
+    </button>
+  </div>
+  <div
+    className="c1"
+  >
+    <button
+      className="c4"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Build
+      </span>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <button
+      className="c6"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Launch
+      </span>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <button
+      className="c6"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Fun
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Stepper 5 steps 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  height: 64px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c1:not(:first-child)::before,
+.c1:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c1::before {
+  right: calc(50% + 10px);
+}
+
+.c1::after {
+  left: calc(50% + 10px);
+}
+
+.c1:not(:first-child)::before {
+  background-color: #4731d2;
+}
+
+.c5 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c5:not(:first-child)::before,
+.c5:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c5::before {
+  right: calc(50% + 10px);
+}
+
+.c5::after {
+  left: calc(50% + 10px);
+}
+
+.c5:not(:first-child)::before {
+  background-color: #dbdbdb;
+}
+
+.c5:not(:last-child)::after {
+  background-color: #dbdbdb;
+}
+
+.c4 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c4::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c4::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c4::before {
+  background-color: #4731d2;
+}
+
+.c4::after {
+  border-color: #4731d2;
+}
+
+.c4:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c4:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c4.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c6 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #dbdbdb;
+}
+
+.c6::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c6::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c6:not(:disabled):hover {
+  color: #4731d2;
+}
+
+.c6:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c6::before {
+  background-color: #4731d2;
+}
+
+.c6::after {
+  border-color: #dbdbdb;
+}
+
+.c6:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c6:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c6.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c6.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c2 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c2::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c2::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c2:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c2::before {
+  background-color: #4731d2;
+}
+
+.c2::after {
+  border-color: #4731d2;
+}
+
+.c2:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c2:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c2.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c2.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c3 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Design
+      </span>
+    </button>
+  </div>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Build
+      </span>
+    </button>
+  </div>
+  <div
+    className="c1"
+  >
+    <button
+      className="c4"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Launch
+      </span>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <button
+      className="c6"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Fun
+      </span>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <button
+      className="c6"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Rest
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Stepper Default 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  height: 64px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c1:not(:first-child)::before,
+.c1:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c1::before {
+  right: calc(50% + 10px);
+}
+
+.c1::after {
+  left: calc(50% + 10px);
+}
+
+.c1:not(:first-child)::before {
+  background-color: #4731d2;
+}
+
+.c4 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c4:not(:first-child)::before,
+.c4:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c4::before {
+  right: calc(50% + 10px);
+}
+
+.c4::after {
+  left: calc(50% + 10px);
+}
+
+.c4:not(:first-child)::before {
+  background-color: #dbdbdb;
+}
+
+.c4:not(:last-child)::after {
+  background-color: #dbdbdb;
+}
+
+.c2 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c2::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c2::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c2::before {
+  background-color: #4731d2;
+}
+
+.c2::after {
+  border-color: #4731d2;
+}
+
+.c2:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c2:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c2.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c5 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #dbdbdb;
+}
+
+.c5::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c5::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c5:not(:disabled):hover {
+  color: #4731d2;
+}
+
+.c5:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c5::before {
+  background-color: #4731d2;
+}
+
+.c5::after {
+  border-color: #dbdbdb;
+}
+
+.c5:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c5:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c5.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c5.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c3 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Start
+      </span>
+    </button>
+  </div>
+  <div
+    className="c4"
+  >
+    <button
+      className="c5"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Finish
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Stepper StepperWrapper 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  height: 64px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c1:not(:first-child)::before,
+.c1:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c1::before {
+  right: calc(50% + 10px);
+}
+
+.c1::after {
+  left: calc(50% + 10px);
+}
+
+.c1:not(:first-child)::before {
+  background-color: #4731d2;
+}
+
+.c4 {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.c4:not(:first-child)::before,
+.c4:not(:last-child)::after {
+  position: absolute;
+  top: 45px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 6px;
+  content: '';
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.c4::before {
+  right: calc(50% + 10px);
+}
+
+.c4::after {
+  left: calc(50% + 10px);
+}
+
+.c4:not(:first-child)::before {
+  background-color: #dbdbdb;
+}
+
+.c4:not(:last-child)::after {
+  background-color: #dbdbdb;
+}
+
+.c2 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #4731d2;
+}
+
+.c2::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c2::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c2::before {
+  background-color: #4731d2;
+}
+
+.c2::after {
+  border-color: #4731d2;
+}
+
+.c2:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c2:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c2.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c5 {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  color: #dbdbdb;
+}
+
+.c5::before {
+  position: absolute;
+  top: 44px;
+  left: 28px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.c5::after {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  content: '';
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100%;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+
+.c5:not(:disabled):hover {
+  color: #4731d2;
+}
+
+.c5:not(:disabled):hover::before {
+  opacity: 1;
+}
+
+.c5::before {
+  background-color: #4731d2;
+}
+
+.c5::after {
+  border-color: #dbdbdb;
+}
+
+.c5:focus:not(.focus-ring) {
+  outline: none;
+}
+
+.c5:focus:not(.focus-ring)::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.c5.focus-ring:not(:disabled) {
+  color: #4731d2;
+}
+
+.c5.focus-ring:not(:disabled)::before {
+  opacity: 1;
+}
+
+.c3 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Design
+      </span>
+    </button>
+  </div>
+  <div
+    className="c4"
+  >
+    <button
+      className="c5"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Build
+      </span>
+    </button>
+  </div>
+  <div
+    className="c4"
+  >
+    <button
+      className="c5"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Launch
+      </span>
+    </button>
+  </div>
+  <div
+    className="c4"
+  >
+    <button
+      className="c5"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Fun
+      </span>
+    </button>
+  </div>
+  <div
+    className="c4"
+  >
+    <button
+      className="c5"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="c3"
+      >
+        Rest
+      </span>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+storybook-static/
+coverage/
+.DS_Store
+.git
+node_modules/
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+yarn-error.log*

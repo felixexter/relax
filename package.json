@@ -1,0 +1,78 @@
+{
+  "name": "relax",
+  "version": "1.0.0",
+  "description": "Experiments with React novelties",
+  "author": "Felix Exter <felixexter@ya.ru> (https://github.com/felixexter)",
+  "license": "MIT",
+  "repository": "git@github.com:felixexter/relax.git",
+  "scripts": {
+    "start": "start-storybook -p 3000",
+    "build": "build-storybook",
+    "lint": "eslint --ext .js ./src",
+    "lint:fix": "eslint --fix --ext .js ./src",
+    "test": "jest",
+    "test:update": "jest --updateSnapshot",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-beta.35",
+    "fbjs": "^0.8.16",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "styled-components": "^2.4.0",
+    "wicg-focus-ring": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.36",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.35",
+    "@babel/preset-react": "^7.0.0-beta.35",
+    "@storybook/addon-actions": "^3.2.19",
+    "@storybook/addon-storyshots": "^3.2.19",
+    "@storybook/react": "^3.2.19",
+    "babel-core": "^7.0.0-0",
+    "babel-eslint": "^8.1.1",
+    "babel-jest": "^22.0.4",
+    "babel-loader": "8.0.0-beta.0",
+    "babel-plugin-styled-components": "^1.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.0",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^22.0.4",
+    "jest-styled-components": "^4.9.0",
+    "react-dom": "^16.2.0",
+    "react-test-renderer": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!**/*.story.js",
+      "!**/*.mock.js",
+      "!**/index.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}

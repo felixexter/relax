@@ -1,0 +1,70 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "jest"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  settings: {
+    "import/extensions": [".js"],
+    "import/ignore": ["node_modules"],
+    "react": {
+      "pragma": "React",
+      "version": "16.2"
+    },
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "comma-dangle": [2, "always-multiline"],
+    "no-extra-semi": [2],
+    "no-confusing-arrow": [0],
+    "max-len": [2, {
+      "code": 120,
+      "tabWidth": 2,
+      "ignoreUrls": true,
+      "ignoreComments": false,
+      "ignoreRegExpLiterals": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+    }],
+    "func-names": [0],
+    "curly": [2, "multi-or-nest", "consistent"],
+    "no-unused-expressions": [2],
+    "class-methods-use-this": [2],
+    "spaced-comment": [2],
+    "function-paren-newline": [0],
+    "arrow-parens": [2, "as-needed",  { "requireForBlockBody": false }],
+
+    "react/forbid-component-props": [2],
+    "react/forbid-prop-types": [2],
+    "react/no-direct-mutation-state": [2],
+    "react/no-unused-prop-types": [2],
+    "react/prop-types": [2, { "ignore": ["children"] }],
+    "react/require-optimization": [0],
+    "react/sort-comp": [2],
+    "react/sort-prop-types": [0],
+    "react/jsx-boolean-value": [2],
+    "react/jsx-closing-bracket-location": [2, "line-aligned"],
+    "react/jsx-curly-spacing": [2, { "when": "never", "children": true }],
+    "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
+    "react/jsx-first-prop-new-line": [2, "multiline"],
+    "react/jsx-handler-names": [2, { "eventHandlerPrefix": "handle", "eventHandlerPropPrefix": "on" }],
+    "react/jsx-key": [2],
+    "react/jsx-no-bind": [2],
+    "react/jsx-no-literals": [0],
+    "react/jsx-no-target-blank": [2],
+    "react/jsx-pascal-case": [2],
+
+    "jsx-quotes": [2, "prefer-single"],
+
+    "import/no-unresolved": ["error", { commonjs: true }],
+    "import/namespace": [2],
+    "import/default": [2],
+    "import/imports-first": [2],
+    "import/no-extraneous-dependencies": [2, { devDependencies: true }],
+    "import/prefer-default-export": [0]
+  }
+}

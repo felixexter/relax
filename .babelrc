@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    ["@babel/preset-env", {
+      "browsers": [
+        "last 2 versions"
+      ]
+    }]
+  ],
+  "plugins": [
+    "babel-plugin-styled-components",
+    "@babel/plugin-proposal-class-properties"
+  ],
+  "ignore": [
+    "node_modules"
+  ]
+}
