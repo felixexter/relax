@@ -8,6 +8,7 @@
   "scripts": {
     "start": "start-storybook -p 3000",
     "build": "build-storybook",
+    "serve": "serve storybook-static",
     "lint": "eslint --ext .js ./src",
     "lint:fix": "eslint --fix --ext .js ./src",
     "test": "jest",
@@ -50,6 +51,7 @@
     "jest-styled-components": "^4.9.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
+    "serve": "^6.4.3",
     "webpack": "^3.10.0"
   },
   "jest": {
