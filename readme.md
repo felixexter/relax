@@ -12,6 +12,8 @@ Command | Description
 -- | --
 `yarn` | Install dependencies
 `yarn start` | Run storybook
+`yarn build` | Build storybook
+`yarn serve` | Serve storybook
 `yarn test` | Run tests
 `yarn test:update` | Run tests & update snapshots
 `yarn test:coverage` | Run tests & display coverage
